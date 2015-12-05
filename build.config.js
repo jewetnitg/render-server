@@ -16,23 +16,9 @@ var buildConfig = {
   tasksDir: "./tasks",
 
   // default task to run, eg. this task is ran when running gulp without a task
-  defaultTask: "run",
+  defaultTask: "start",
 
-  tasks: {
-
-    "run": [
-      // clean build dir
-      "clean",
-
-      // run assets task, should be implemented per project, starts the server as well
-      "assets",
-
-      // start the server
-      "start"
-
-    ]
-
-  }
+  tasks: {}
 
 };
 
