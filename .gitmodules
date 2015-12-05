@@ -1,0 +1,3 @@
+[submodule "src"]
+	path = src
+	url = /Users/rik/Repositories/boilerplate.git
