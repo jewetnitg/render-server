@@ -1,6 +1,5 @@
 var RenderServer = require('./lib/Server');
-var config = require('./server.config');
 
-var server = RenderServer(config);
+var server = RenderServer();
 
 module.exports = server;

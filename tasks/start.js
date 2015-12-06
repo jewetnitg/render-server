@@ -1,8 +1,6 @@
-var server = require('../index');
-
 module.exports = function (gulp) {
   gulp.task('start', function () {
-    server.start();
+    var server = require('../index');
     console.log('server started');
   });
 };
